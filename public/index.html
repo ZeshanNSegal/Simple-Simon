@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html/css; charset=UTF-8">
+	<meta http-equiv="x-us-compatible" content="ie=edge"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/Simple-Simon.css">
+</head>
+<body>
+		<div class="container">
+			<h1>SIMPSON SIMON</h1>
+
+			<div class="level">
+	     		<h2>LEVEL: <span id ="level">0</span></h2>	    
+	     			<h2>SCORE: <span id="score">0</span></h2>
+			</div>
+
+			<div class="back">
+				<div class="button shape1" data-number="0">
+					<audio preload="auto" id="sound0" data-pad="1">
+          			<source src="media_and_images/bartlaugh.mp3" type="audio/mpeg"/>
+        			</audio>
+				</div>
+			
+				<div class="button shape2" data-number="1">
+					<audio preload="auto" id="sound1" data-pad="2">
+          			<source src="media_and_images/belching.mp3" type="audio/mpeg"/>
+        			</audio>
+				</div>	
+					
+				<div class="button shape3" data-number="2">
+					<audio preload="auto" id="sound2" data-pad="3">
+          			<source src="media_and_images/doh.mp3" type="audio/mpeg"/>
+        			</audio>
+				</div>
+
+				<div class="button shape4" data-number="3">
+					<audio preload="auto" id="sound3" data-pad="4">
+          			<source src="media_and_images/nelsonlaugh.mp3" type="audio/mpeg"/>
+        			</audio>
+				</div>
+			
+				<div class="circle"></div>	
+			</div>
+
+			<div class="sButton">
+		        <button class="btn btn-lg btn-primary start">start</button>
+		    </div>
+		</div>	    
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="Simple-Simon.js"></script>
+</body>
+</html>
